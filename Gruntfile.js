@@ -25,7 +25,7 @@ module.exports = function (grunt) {
           '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
           '!<%= yeoman.app %>/<%= yeoman.bower %>/**/*'
         ],
-        tasks: ['jekyll:server']
+        tasks: ['bundle exec jekyll:server']
       },
       less: {
         files: ['<%= yeoman.app %>/<%= yeoman.assets %>/<%= yeoman.css %>/**/*.less'],
@@ -236,16 +236,14 @@ module.exports = function (grunt) {
     },
      
     buildcontrol: {
-      /* Not deplying to GIT ATT
       dist: {
         options: {
-          remote: '../',
+          remote: 'https://github.com/7thsense/seventhsense.git',
           branch: 'gh-pages',
           commit: true,
           push: true
         }
       }
-      */
     },
      
     jshint: {
@@ -260,7 +258,7 @@ module.exports = function (grunt) {
     },
     concurrent: {
       server: [
-        'jekyll:server'
+        'bundle exec jekyll:server'
       ],
       dist: [
         'copy:dist'
