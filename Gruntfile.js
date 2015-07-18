@@ -305,6 +305,11 @@ module.exports = function (grunt) {
     'htmlmin'
     ]);
 
+  grunt.registerTask('publish', [
+    'build',
+    'buildcontrol:dist'
+  ]);
+
   grunt.registerTask('default', [
     'test',
     'build'
