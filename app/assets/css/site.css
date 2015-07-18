@@ -32,6 +32,14 @@
 	margin: 0px !important;
 }
 
+.mt5 {
+	margin-top: 5px !important;
+}
+
+.mb5 {
+	margin-bottom: 5px !important;
+}
+
 .mr5 {
 	margin-right: 5px !important;
 }
@@ -62,6 +70,10 @@
 
 /*** Colors ***/
 
+.txt-4f82e9 {
+	color: #4f82e9 !important;
+}
+
 .txt-337ab7 {
 	color: #337ab7 !important;
 }
@@ -84,6 +96,10 @@ a.txt-ddd:hover {
 }
 
 /*** Font Sizes ***/
+
+.fs15 {
+	font-size: 15px !important;
+}
 
 .fs22 {
 	font-size: 22px !important;
@@ -217,4 +233,9 @@ body {
 
 .btn-blue:hover {
 	color: #000; 
+}
+
+/*** Top Hat ***/
+.top-hat .contact-info i {
+	line-height: 55px;
 }
