@@ -25,6 +25,15 @@
 
     $(document).ready(function () {
 
+        /* Clear newsletter default text */
+        $('#fieldEmail').focus(function(){
+            $(this).attr("placeholder", "");
+        });
+
+        $('#fieldEmail').blur(function(){
+            $(this).attr("placeholder", "Enter email to subscribe");
+        });
+ 
         /* Newsletter submission handler */
         $("#newsletterForm").submit(function (event) {
             /* Stop standard form submission */
