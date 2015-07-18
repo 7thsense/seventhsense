@@ -25,7 +25,7 @@ module.exports = function (grunt) {
           '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,css,js}',
           '!<%= yeoman.app %>/<%= yeoman.bower %>/**/*'
         ],
-        tasks: ['bundle exec jekyll:server']
+        tasks: ['jekyll:server']
       },
       less: {
         files: ['<%= yeoman.app %>/<%= yeoman.assets %>/<%= yeoman.css %>/**/*.less'],
@@ -258,7 +258,7 @@ module.exports = function (grunt) {
     },
     concurrent: {
       server: [
-        'bundle exec jekyll:server'
+        'jekyll:server'
       ],
       dist: [
         'copy:dist'
