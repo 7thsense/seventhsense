@@ -1,4 +1,17 @@
 /*** Helpers ***/
+
+.strong {
+	font-weight: bold;
+}
+
+.dn {
+	display: none !important;
+}
+
+.pRel {
+	position: relative !important;
+}
+
 .pln {
 	padding-left: 0px !important;
 }
@@ -27,6 +40,10 @@
 	margin-right: 10px !important;
 }
 
+.mt10 {
+	margin-top: 10px;
+}
+
 .mb10 {
 	margin-bottom: 10px !important;
 }
@@ -39,21 +56,30 @@
 	margin-bottom: 35px !important;
 }
 
-.txt-ddd, a.txt-ddd, a.txt-ddd:hover, a.txt-ddd:visited {
+/*** Colors ***/
+
+.txt-337ab7 {
+	color: #337ab7 !important;
+}
+
+.txt-ddd, a.txt-ddd, a.txt-ddd:visited {
 	color: #ddd !important;
 }
 
-.txt-fff, a.txt-fff, a.txt-fff:visited {
-	color: #fff !important;
+a.txt-ddd:hover {
+	color: #337ab7 !important;
+	text-decoration: none !important;
 }
 
-a.txt-fff:hover {
-	text-decoration: underline !important;
+.txt-fff, a.txt-fff, a.txt-fff:hover, a.txt-fff:visited {
+	color: #fff !important;
 }
 
 .bg-111 {
 	background-color: #111 !important;
 }
+
+/*** Font Sizes ***/
 
 .fs22 {
 	font-size: 22px !important;
@@ -61,10 +87,6 @@ a.txt-fff:hover {
 
 .fs35 {
 	font-size: 35px !important;
-}
-
-.pRel {
-	position: relative !important;
 }
 
 /*** Globals ***/
@@ -139,6 +161,15 @@ body {
   margin: 0 2px 0 3px;
 }
 
+.newsletter-form .form-control {
+	height: 46px;  
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px; 
+}
+
+.newsletter-form .input-group {
+  width: 262px;
+}
 
 /*** Buttons ***/
 
@@ -165,7 +196,7 @@ body {
 	font-size: 12px; 
 }
 
-.border-theme {
+.btn-blue {
 	border: 1px solid #4f82e9;
 	background-color: #4f82e9;
 	color: #fff;
@@ -175,6 +206,6 @@ body {
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
 }
 
-.border-theme:hover {
+.btn-blue:hover {
 	color: #000; 
 }

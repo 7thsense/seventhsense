@@ -22,7 +22,7 @@ module.exports = function (grunt) {
     watch: {
       jekyll: {
         files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,css}',
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,css,js}',
           '!<%= yeoman.app %>/<%= yeoman.bower %>/**/*'
         ],
         tasks: ['jekyll:server']
