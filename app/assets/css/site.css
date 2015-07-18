@@ -48,6 +48,10 @@
 	margin-bottom: 10px !important;
 }
 
+.mb20 {
+	margin-bottom: 20px !important; 
+}
+
 .mb30 {
 	margin-bottom: 30px !important; 
 }
@@ -126,6 +130,11 @@ body {
 	font-size: 0.9em;
 	padding: 40px 0 0;
 	clear: both; 
+}
+
+.footer-logo img {
+	width: 250px;
+	height: 100%;
 }
 
 .footer-col h3:first-letter {
