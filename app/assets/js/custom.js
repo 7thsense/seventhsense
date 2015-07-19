@@ -41,6 +41,13 @@
             Sense.Newsletter.submitForm();
         });
 
+        /* Start sticky header */
+        $(window).load(function () {
+            $(".sticky").sticky({
+                topSpacing: 0
+            });
+        });
+
     });
 
 })(jQuery);
