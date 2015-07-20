@@ -8,12 +8,28 @@
 	display: none !important;
 }
 
+.db {
+	display: block;
+}
+
+.dib {
+	display: inline-block;
+}
+
+.vat {
+	vertical-align: top !important;
+}
+
 .pRel {
 	position: relative !important;
 }
 
 .pln {
 	padding-left: 0px !important;
+}
+
+.prn {
+	padding-right: 0px !important;
 }
 
 .pan {
@@ -32,6 +48,10 @@
 	margin: 0px !important;
 }
 
+.mbn {
+	margin-bottom: 0px !important;
+}
+
 .mt5 {
 	margin-top: 5px !important;
 }
@@ -46,6 +66,10 @@
 
 .mr10 {
 	margin-right: 10px !important;
+}
+
+.mr20 {
+	margin-right: 20px !important;
 }
 
 .mt10 {
@@ -70,8 +94,13 @@
 
 /*** Colors ***/
 
+/*
 .txt-4f82e9 {
 	color: #4f82e9 !important;
+}
+*/
+.txt-e0e0e0 {
+	color: #e0e0e0 !important;
 }
 
 .txt-337ab7 {
@@ -129,6 +158,10 @@ a {
 	transition: all 200ms ease-in; 
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 /*** Social Icons ***/
 .social li a i {
     width: 44px;
@@ -177,7 +210,7 @@ a {
   max-width: 415px;
 }
 
-.footer-nav li:before{
+li.pipe:before{
   content: "";
   display:inline-block;
   vertical-align:top;
@@ -242,6 +275,41 @@ a {
 	color: #000; 
 }
 
+.btn-orange{
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+	box-shadow: 0 1px 4px rgba(0,0,0,.3);
+	border: solid 2px #f8a134;
+	background: #ee9031 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlOTAzMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOGExMzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ee9031 0%, #f8a134 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ee9031), color-stop(100%,#f8a134));
+	background: -webkit-linear-gradient(top,  #ee9031 0%,#f8a134 100%);
+	background: -o-linear-gradient(top,  #ee9031 0%,#f8a134 100%);
+	background: -ms-linear-gradient(top,  #ee9031 0%,#f8a134 100%);
+	background: linear-gradient(to bottom,  #ee9031 0%,#f8a134 100%);
+	vertical-align:top;
+	min-width: 80px;
+	padding: 12px 20px;
+	line-height: 22px;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+  	font-weight: 400;
+  	font-size: 14px;
+  	text-transform: uppercase;
+}
+
+.btn-orange:hover{
+	background: #f8a134 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4YTEzNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZTkwMzEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #f8a134 0%, #ee9031 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8a134), color-stop(100%,#ee9031));
+	background: -webkit-linear-gradient(top,  #f8a134 0%,#ee9031 100%);
+	background: -o-linear-gradient(top,  #f8a134 0%,#ee9031 100%);
+	background: -ms-linear-gradient(top,  #f8a134 0%,#ee9031 100%);
+	background: linear-gradient(to bottom,  #f8a134 0%,#ee9031 100%);
+	color: #2b2b2b !important;
+	text-decoration: none;
+}
+
 /*** Top Hat ***/
 .top-hat .contact-info i {
 	line-height: 55px;
@@ -294,3 +362,90 @@ a {
 .navbar-inverse .navbar-nav > li > a:hover {
 	color: #4f82e9; 
 }
+
+/*** Header ***/
+
+.logo img{
+	width: 225px;
+	height: auto;
+}
+
+/*** Home page hero ***/
+#home-page-hero {
+	background: url("/assets/img/hero-bg-keyboard.jpg") no-repeat;
+	padding: 0; 
+}
+
+#home-page-hero h1 {
+	font-size: 30px !important;
+  	line-height: 40px;
+}
+
+#home-page-hero .hero-overlay {
+	background:rgba(0,0,0,0.2);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	padding-bottom: 30px;
+}
+
+.buttons a:first-child {
+	margin-bottom: 10px;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	#home-page-hero {
+		padding: 55px 0; 
+	}
+
+	#home-page-hero h1 {
+		font-size: 45px !important;
+		line-height: 65px; 
+	}
+
+	#home-page-hero .hero-overlay {
+		padding: 25px;
+	}
+
+	#home-page-hero .buttons {
+		margin: 30px 0 25px 0;
+	}
+
+	.buttons a:first-child {
+		margin-bottom: 0px;
+		margin-right: 25px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	#home-page-hero {
+		padding: 130px 0; 
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+
+
+
+
+
