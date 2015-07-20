@@ -68,6 +68,10 @@
 	margin-right: 10px !important;
 }
 
+.mr20 {
+	margin-right: 20px !important;
+}
+
 .mt10 {
 	margin-top: 10px;
 }
@@ -90,8 +94,13 @@
 
 /*** Colors ***/
 
+/*
 .txt-4f82e9 {
 	color: #4f82e9 !important;
+}
+*/
+.txt-e0e0e0 {
+	color: #e0e0e0 !important;
 }
 
 .txt-337ab7 {
@@ -149,6 +158,10 @@ a {
 	transition: all 200ms ease-in; 
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 /*** Social Icons ***/
 .social li a i {
     width: 44px;
@@ -197,7 +210,7 @@ a {
   max-width: 415px;
 }
 
-.footer-nav li:before{
+li.pipe:before{
   content: "";
   display:inline-block;
   vertical-align:top;
@@ -352,19 +365,82 @@ a {
 
 /*** Header ***/
 
-@media only screen and (max-width: 767px) {
+.logo img{
+	width: 225px;
+	height: auto;
+}
 
-	.logo img{
-		width: 186px;
-		height: auto;
+/*** Home page hero ***/
+#home-page-hero {
+	background: url("/assets/img/hero-bg-keyboard.jpg") no-repeat;
+	padding: 0; 
+}
+
+#home-page-hero h1 {
+	font-size: 30px !important;
+  	line-height: 40px;
+}
+
+#home-page-hero .hero-overlay {
+	background:rgba(0,0,0,0.2);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	padding-bottom: 30px;
+}
+
+.buttons a:first-child {
+	margin-bottom: 10px;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	#home-page-hero {
+		padding: 55px 0; 
 	}
 
-	.navbar-inverse .navbar-brand {
-  		padding-top: 7px !important;
+	#home-page-hero h1 {
+		font-size: 45px !important;
+		line-height: 65px; 
+	}
+
+	#home-page-hero .hero-overlay {
+		padding: 25px;
+	}
+
+	#home-page-hero .buttons {
+		margin: 30px 0 25px 0;
+	}
+
+	.buttons a:first-child {
+		margin-bottom: 0px;
+		margin-right: 25px;
 	}
 
 }
 
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	#home-page-hero {
+		padding: 130px 0; 
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
 
 
 
