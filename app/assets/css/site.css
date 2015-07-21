@@ -102,13 +102,12 @@
 
 /*** Colors ***/
 
-/*
-.txt-4f82e9 {
-	color: #4f82e9 !important;
-}
-*/
 .txt-e0e0e0 {
 	color: #e0e0e0 !important;
+}
+
+.txt-aaa {
+	color: #aaa;
 }
 
 .txt-337ab7 {
@@ -134,6 +133,10 @@ a.txt-ddd:hover {
 
 .bg-111 {
 	background-color: #111 !important;
+}
+
+.bg-4f82e9 {
+	background-color: #4f82e9 !important;
 }
 
 /*** Font Sizes ***/
@@ -446,15 +449,10 @@ li.pipe:before{
   	text-align: center; 
  }
 
-.price-title h4 {
-  	margin: 0px; 
-}
-
 .price-price {
 	  padding: 15px 0;
 	  font-size: 36px;
 	  line-height: 40px;
-	  background-color: #444;
 	  margin: 0 -1px;
 	  color: #FFF;
 	  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -465,14 +463,12 @@ li.pipe:before{
 	  display: block;
 	  font-size: 13px;
 	  line-height: 20px;
-	  color: #AAA; 
 }
 
 .price-features {
 	  padding: 10px 15px;
 	  border-bottom: 1px solid #E5E5E5;
 	  text-shadow: 1px 1px 1px #FFF;
-	  text-align: center; 
 }
 
 .price-features ul li {
@@ -484,9 +480,18 @@ li.pipe:before{
   	border-top: 0; 
  }
 
- .price-price.popular {
-  	background: #4f82e9;
-  	color: #fff; 
+/*** Team ***/
+.team-wrap {
+  	padding: 3px 3px 20px;
+  	border: 1px solid #eee;
+  	text-align: center; 
+}
+
+.team-wrap h4 {
+  	margin-bottom: 3px;
+  	margin-top: 10px;
+  	font-weight: 500;
+  	font-size: 17px; 
 }
 
 /* Custom, iPhone Retina */ 
