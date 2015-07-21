@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<section id="blog">	
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+                <div class="center-heading text-center mt20 mb20">
+                    <h2 class="txt-333">Blog</h2>
+                    <span class="center-line dib"></span>
+                </div>
+			</div>
+		</div>
+
+		<div class="row">
+ 		                
+                {% for post in site.posts %}
+                
+	                <div class="mas-boxes-inner dib w100">
+	                    <div class="pRel dib">
+		                    <img src="http://placehold.it/360x159" class="img-responsive ma" alt="">
+		                    <div class="mas-blog-inner pa20">
+		                        <h3 class="mb15"><a href="#" class="txt-333">{{ post.title }}</a></h3>
+		                        <ul class="list-inline post-detail text-uppercase fs11 txt-777 mt0 mb10">
+		                            <li calss="vam">by <a href="#" class="txt-333">assan</a></li>
+		                            <li calss="vam"><i class="fa fa-calendar"></i> 31st july 2014</li>                            
+		                        </ul>
+		                        <p>{{ post.description }}</p>
+		                        <p>{{ post.previewtext }}</p>
+		                        <p>{{ post.content }}</p>
+		                        <a href="#" class="txt-333">Continue reading</a>
+		                    </div>
+	                    </div>
+	                </div> 
+
+		        {% endfor %}   
+
+ 		</div>
+
+	</div>
+
+</section>
+ 
+ 
+
+

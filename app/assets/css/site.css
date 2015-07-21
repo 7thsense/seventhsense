@@ -1,7 +1,11 @@
 /*** Helpers ***/
 
 .strong {
-	font-weight: bold;
+	font-weight: bold !important;
+}
+
+.w100 {
+	width: 100%;
 }
 
 .dn {
@@ -9,15 +13,23 @@
 }
 
 .db {
-	display: block;
+	display: block !important;
 }
 
 .dib {
-	display: inline-block;
+	display: inline-block !important;
+}
+
+.pRel {
+	position: relative !important;
 }
 
 .vat {
 	vertical-align: top !important;
+}
+
+.vam {
+	vertical-align: middle !important;
 }
 
 .pRel {
@@ -40,6 +52,10 @@
 	padding-right: 5px !important;
 }
 
+.pa20 {
+	padding: 20px !important;
+}
+
 .pb20 {
 	padding-bottom: 20px !important;
 }
@@ -54,6 +70,10 @@
 
 .mbn {
 	margin-bottom: 0px !important;
+}
+
+.mt0 {
+	margin-top: 0px !important;
 }
 
 .mt5 {
@@ -72,6 +92,18 @@
 	margin-right: 10px !important;
 }
 
+.mt10 {
+	margin-top: 10px;
+}
+
+.mb10 {
+	margin-bottom: 10px !important;
+}
+
+.mb15 {
+	margin-bottom: 15px !important;
+}
+
 .mr20 {
 	margin-right: 20px !important;
 }
@@ -82,18 +114,6 @@
 
 .mb20 {
 	margin-bottom: 20px !important;
-}
-
-.mt10 {
-	margin-top: 10px;
-}
-
-.mb10 {
-	margin-bottom: 10px !important;
-}
-
-.mb20 {
-	margin-bottom: 20px !important; 
 }
 
 .mb30 {
@@ -126,6 +146,10 @@
 	color: #333 !important;
 }
 
+.txt-777 {
+	color: #777 !important;
+}
+
 .txt-ddd, a.txt-ddd, a.txt-ddd:visited {
 	color: #ddd !important;
 }
@@ -148,6 +172,10 @@ a.txt-ddd:hover {
 }
 
 /*** Font Sizes ***/
+
+.fs11 {
+	font-size: 11px !important;
+}
 
 .fs15 {
 	font-size: 15px !important;
@@ -494,6 +522,23 @@ li.pipe:before{
   	margin-top: 10px;
   	font-weight: 600;
   	font-size: 17px; 
+}
+
+/*** Blog ***/
+.mas-boxes-inner {
+	padding: 0px;
+	margin-bottom: 30px;
+	border: 1px solid #eee;
+	border-bottom: 3px solid #f5f5f5;
+	padding: 5px; 
+}s
+
+.mas-blog-inner h3 {
+	font-weight: 400; 
+}
+
+.post-detail li {
+  	font-weight: 600;
 }
 
 /* Custom, iPhone Retina */ 
