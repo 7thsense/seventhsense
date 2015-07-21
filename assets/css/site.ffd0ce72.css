@@ -44,6 +44,10 @@
 	padding-bottom: 20px !important;
 }
 
+.ma {
+	margin: auto;
+}
+
 .man {
 	margin: 0px !important;
 }
@@ -102,13 +106,16 @@
 
 /*** Colors ***/
 
-/*
-.txt-4f82e9 {
-	color: #4f82e9 !important;
-}
-*/
 .txt-e0e0e0 {
 	color: #e0e0e0 !important;
+}
+
+.txt-aaa {
+	color: #aaa !important;
+}
+
+.txt-000 {
+	color: #000 !important;
 }
 
 .txt-337ab7 {
@@ -134,6 +141,10 @@ a.txt-ddd:hover {
 
 .bg-111 {
 	background-color: #111 !important;
+}
+
+.bg-4f82e9 {
+	background-color: #4f82e9 !important;
 }
 
 /*** Font Sizes ***/
@@ -432,10 +443,6 @@ li.pipe:before{
 	padding-bottom: 30px;
 }
 
-.buttons a:first-child {
-	margin-bottom: 10px;
-}
-
 /*** Pricing ***/
 .price-wrap {
  	border: 1px solid #e5e5e5; 
@@ -446,15 +453,10 @@ li.pipe:before{
   	text-align: center; 
  }
 
-.price-title h4 {
-  	margin: 0px; 
-}
-
 .price-price {
 	  padding: 15px 0;
 	  font-size: 36px;
 	  line-height: 40px;
-	  background-color: #444;
 	  margin: 0 -1px;
 	  color: #FFF;
 	  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -465,14 +467,12 @@ li.pipe:before{
 	  display: block;
 	  font-size: 13px;
 	  line-height: 20px;
-	  color: #AAA; 
 }
 
 .price-features {
 	  padding: 10px 15px;
 	  border-bottom: 1px solid #E5E5E5;
 	  text-shadow: 1px 1px 1px #FFF;
-	  text-align: center; 
 }
 
 .price-features ul li {
@@ -484,9 +484,16 @@ li.pipe:before{
   	border-top: 0; 
  }
 
- .price-price.popular {
-  	background: #4f82e9;
-  	color: #fff; 
+/*** Team ***/
+.team-wrap {
+  	border: 1px solid #eee;
+}
+
+.team-wrap h4 {
+  	margin-bottom: 3px;
+  	margin-top: 10px;
+  	font-weight: 600;
+  	font-size: 17px; 
 }
 
 /* Custom, iPhone Retina */ 
@@ -499,9 +506,18 @@ li.pipe:before{
 
 }
 
+/* Covering phones in portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) {
+	/*** Buttons ***/
+	.buttons a:first-child {
+		margin-bottom: 10px;
+	}
+} 
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+	/*** Hero ***/
 	#home-page-hero {
 		padding: 55px 0; 
 	}
@@ -519,6 +535,7 @@ li.pipe:before{
 		margin: 30px 0 25px 0;
 	}
 
+	/*** Buttons ***/
 	.buttons a:first-child {
 		margin-bottom: 0px;
 		margin-right: 25px;
@@ -529,14 +546,10 @@ li.pipe:before{
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+	/*** Hero ***/
 	#home-page-hero {
 		padding: 130px 0; 
 	}
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
 }
 

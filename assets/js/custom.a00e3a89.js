@@ -30,6 +30,7 @@
             $(this).attr("placeholder", "");
         });
 
+        /* Add it back if we dont do anything after focus */
         $('#fieldEmail').blur(function(){
             $(this).attr("placeholder", "Enter email to subscribe");
         });
@@ -56,18 +57,13 @@
 
     });
 
+    /* Closes nav menu on click */
+    $(document).on('click','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+            $(this).collapse('hide');
+        }
+    });
+
 })(jQuery);
 
 
-//parallax
-$(document).ready(function () {
-    $(window).stellar({
-        horizontalScrolling: false,
-        responsive: true/*,
-         scrollProperty: 'scroll',
-         parallaxElements: false,
-         horizontalScrolling: false,
-         horizontalOffset: 0,
-         verticalOffset: 0*/
-    });
-});
