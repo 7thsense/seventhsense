@@ -44,6 +44,10 @@
 	padding-bottom: 20px !important;
 }
 
+.ma {
+	margin: auto;
+}
+
 .man {
 	margin: 0px !important;
 }
@@ -107,7 +111,11 @@
 }
 
 .txt-aaa {
-	color: #aaa;
+	color: #aaa !important;
+}
+
+.txt-000 {
+	color: #000 !important;
 }
 
 .txt-337ab7 {
@@ -435,10 +443,6 @@ li.pipe:before{
 	padding-bottom: 30px;
 }
 
-.buttons a:first-child {
-	margin-bottom: 10px;
-}
-
 /*** Pricing ***/
 .price-wrap {
  	border: 1px solid #e5e5e5; 
@@ -482,15 +486,13 @@ li.pipe:before{
 
 /*** Team ***/
 .team-wrap {
-  	padding: 3px 3px 20px;
   	border: 1px solid #eee;
-  	text-align: center; 
 }
 
 .team-wrap h4 {
   	margin-bottom: 3px;
   	margin-top: 10px;
-  	font-weight: 500;
+  	font-weight: 600;
   	font-size: 17px; 
 }
 
@@ -504,9 +506,18 @@ li.pipe:before{
 
 }
 
+/* Covering phones in portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) {
+	/*** Buttons ***/
+	.buttons a:first-child {
+		margin-bottom: 10px;
+	}
+} 
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+	/*** Hero ***/
 	#home-page-hero {
 		padding: 55px 0; 
 	}
@@ -524,6 +535,7 @@ li.pipe:before{
 		margin: 30px 0 25px 0;
 	}
 
+	/*** Buttons ***/
 	.buttons a:first-child {
 		margin-bottom: 0px;
 		margin-right: 25px;
@@ -534,14 +546,10 @@ li.pipe:before{
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+	/*** Hero ***/
 	#home-page-hero {
 		padding: 130px 0; 
 	}
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
 }
 
