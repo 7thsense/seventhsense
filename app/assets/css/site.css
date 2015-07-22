@@ -171,6 +171,10 @@ a.txt-ddd:hover {
 	background-color: #4f82e9 !important;
 }
 
+.bg-eee {
+	background-color: #eee !important;
+}
+
 /*** Font Sizes ***/
 
 .fs11 {
