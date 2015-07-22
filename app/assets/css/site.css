@@ -499,8 +499,7 @@ li.pipe:before{
 
 .price-features {
 	  padding: 10px 15px;
-	  border-bottom: 1px solid #E5E5E5;
-	  text-shadow: 1px 1px 1px #FFF;
+	  /*border-bottom: 1px solid #E5E5E5;*/
 }
 
 .price-features ul li {
@@ -556,6 +555,9 @@ li.pipe:before{
 	/*** Buttons ***/
 	.buttons a:first-child {
 		margin-bottom: 10px;
+	}
+	.btn-blue {
+		display: block; 
 	}
 } 
 
