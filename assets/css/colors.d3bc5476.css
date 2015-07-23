@@ -1,0 +1,54 @@
+/*** Colors ***/
+
+.txt-e0e0e0 {
+	color: #e0e0e0 !important;
+}
+
+.txt-aaa {
+	color: #aaa !important;
+}
+
+.txt-000 {
+	color: #000 !important;
+}
+
+.txt-337ab7 {
+	color: #337ab7 !important;
+}
+
+.txt-ef7f10 {
+	color: #ef7f10 !important;
+}
+
+.txt-333 {
+	color: #333 !important;
+}
+
+.txt-777 {
+	color: #777 !important;
+}
+
+.txt-ddd, a.txt-ddd, a.txt-ddd:visited {
+	color: #ddd !important;
+}
+
+a.txt-ddd:hover {
+	color: #337ab7 !important;
+	text-decoration: none !important;
+}
+
+.txt-fff, a.txt-fff, a.txt-fff:hover, a.txt-fff:visited {
+	color: #fff !important;
+}
+
+.bg-111 {
+	background-color: #111 !important;
+}
+
+.bg-4f82e9 {
+	background-color: #4f82e9 !important;
+}
+
+.bg-eee {
+	background-color: #eee !important;
+}
