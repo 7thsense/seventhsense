@@ -409,6 +409,11 @@ li.pipe:before{
 		padding: 130px 0; 
 	}
 
+	#forsales .container {
+		margin-top: 40px;
+		padding-bottom: 40px !important;
+	}
+
 }
 
 
