@@ -211,6 +211,13 @@ li.pipe:before{
 }
 
 /*** Nav-Bar Overrides ***/
+
+/*** For Sticky Header ***/
+#navbar.affix {
+    top: 0;
+    width: 100%
+}
+
 .navbar-inverse {
 	font-family: "Open Sans", sans-serif;
 	border: none;
@@ -409,7 +416,7 @@ li.pipe:before{
 		padding: 130px 0; 
 	}
 
-	#forsales .container {
+	#customers .container, #itegrations .container {
 		margin-top: 40px;
 		padding-bottom: 40px !important;
 	}
