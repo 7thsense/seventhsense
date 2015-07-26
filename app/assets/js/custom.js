@@ -42,17 +42,20 @@
             Sense.Newsletter.submitForm();
         });
 
-        /* Start sticky header */
+        /* Start sticky header
         $(window).load(function () {
             $(".sticky").sticky({
-                topSpacing: 0
+                topSpacing: 0,
+                responsiveWidth: true
             });
         });
+        */
 
         /* Parallax */
         $(window).stellar({
             horizontalScrolling: false,
-            responsive: true
+            responsive: true,
+            getWidthFrom: "#navbar"
         });
 
     });
@@ -65,5 +68,4 @@
     });
 
 })(jQuery);
-
 

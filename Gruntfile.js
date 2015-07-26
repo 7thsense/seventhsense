@@ -138,12 +138,12 @@ module.exports = function (grunt) {
         	'<%= yeoman.dist %>/<%= yeoman.assets %>', 
         	'<%= yeoman.dist %>/<%= yeoman.assets %>/<%= yeoman.js %>', 
         	'<%= yeoman.dist %>/<%= yeoman.assets %>/<%= yeoman.css %>'
-        	],
+        	]/*,
         patterns: {
                 js: [
                     [/(images\/.*?\.(?:gif|jpeg|jpg|png|webp|svg))/gm, 'Update the JS to reference our revved images']
                 ]
-            }
+            }*/
       },
       html: ['<%= yeoman.dist %>/**/*.html'],
       css: ['<%= yeoman.dist %>/<%= yeoman.assets %>/<%= yeoman.css %>/{,*/}*.css'],
