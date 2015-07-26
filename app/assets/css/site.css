@@ -212,11 +212,12 @@ li.pipe:before{
 
 /*** Nav-Bar Overrides ***/
 
-/*** For Sticky Header ***/
-#navbar.affix {
-    top: 0;
-    width: 100%
-}
+/*
+.navbar .navbar-toggle {
+	position: absolute !important;
+	right: 0;
+	top: 0;
+}*/
 
 .navbar-inverse {
 	font-family: "Open Sans", sans-serif;
