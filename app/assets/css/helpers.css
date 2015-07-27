@@ -136,6 +136,10 @@
 	margin-top: 40px !important;
 }
 
+.mb40 {
+	margin-bottom: 40px !important;
+}
+
 
 /*** Font Sizes ***/
 
@@ -145,6 +149,10 @@
 
 .fs15 {
 	font-size: 15px !important;
+}
+
+.fs16 {
+	font-size: 16px !important;
 }
 
 .fs22 {

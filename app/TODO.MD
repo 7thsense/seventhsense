@@ -3,5 +3,5 @@ add google analytics
 ignore generated fonts and css files
 clean up font weights
 general css clean up
-add blogs
 add urls behind buttons
+add 404 page

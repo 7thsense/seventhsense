@@ -28,7 +28,9 @@ layout: default
 				<div class="col-md-6">
 
 					<div class="mas-boxes-inner">
-			            <img src="http://placehold.it/543x200" class="img-responsive ma" alt="">
+			            <a href="{{ post.url }}">
+			            	<img src="{{ post.image }}" class="img-responsive ma" alt="{{ post.title }}">
+			           	</a>
 			            <div class="mas-blog-inner pa20">
 			                <h3 class="mb15"><a href="#" class="txt-333">{{ post.title }}</a></h3>
 			                <ul class="list-inline post-detail text-uppercase txt-777 mt0 mb10">
