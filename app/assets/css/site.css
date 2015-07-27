@@ -394,9 +394,20 @@ article {
 	.buttons a:first-child {
 		margin-bottom: 10px;
 	}
+	
 	.btn-blue {
 		display: block; 
 	}
+}
+
+/* Covering phones in portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (orientation: portrait) {
+	
+	/*** Buttons ***/
+	#benefits .buttons a:first-child {
+		margin-bottom: 10px;
+	}
+	
 } 
 
 /* Small Devices, Tablets */
@@ -421,10 +432,12 @@ article {
 	}
 
 	/*** Buttons ***/
-	.buttons a:first-child {
+	/*
+	#home-page-hero .buttons a:first-child {
 		margin-bottom: 0px;
 		margin-right: 25px;
 	}
+	*/
 
 }
 

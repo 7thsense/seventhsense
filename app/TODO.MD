@@ -5,3 +5,4 @@ clean up font weights
 general css clean up
 add urls behind buttons
 add 404 page
+hide blog images on mobile ?
