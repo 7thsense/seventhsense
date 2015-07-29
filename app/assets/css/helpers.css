@@ -8,6 +8,10 @@
 	width: 100%;
 }
 
+.vh {
+	visibility: hidden;
+}
+
 .dn {
 	display: none !important;
 }
@@ -112,6 +116,10 @@
 	margin-bottom: 15px !important;
 }
 
+.ma20 {
+	margin: 20px !important;
+}
+
 .mr20 {
 	margin-right: 20px !important;
 }
@@ -161,4 +169,10 @@
 
 .fs35 {
 	font-size: 35px !important;
+}
+
+/*** Line Height ***/
+
+.lh32 {
+	line-height: 32px;
 }

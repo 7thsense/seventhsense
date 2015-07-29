@@ -5,16 +5,18 @@ layout: default
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 col-md-8">
-			<h1 class="article mt40 mb20 text-center">{{ page.title }}</h1>
-			{% if page.image %}
-			<img src="{{page.image}}" class="img-responsive ma mb20 mt20" alt="{{ page.title }}">
-			{% endif %}
-			<ul class="list-inline post-detail text-uppercase txt-777 mt20 mb2a0">
-                <li calss="vam">by <a href="#" class="txt-333">{{ page.author }}</a></li>
-                <li calss="vam"><i class="fa fa-calendar"></i> {{ page.date | date: '%B %d, %Y' }}</li>
-            </ul>
-			<article class="post mb20 text-justify fs16 mb40">
-			{{ content }}
+			<article>
+				<h1 class="article mt40 mb20 text-center">{{ page.title }}</h1>
+				{% if page.image %}
+				<img src="{{page.image}}" class="img-responsive ma mb20 mt20" alt="{{ page.title }}">
+				{% endif %}
+				<ul class="list-inline post-detail text-uppercase txt-777 mt20 mb2a0">
+	                <li class="vam">by <a href="#" class="txt-333">{{ page.author }}</a></li>
+	                <li class="vam"><i class="fa fa-calendar"></i> {{ page.date | date: '%B %d, %Y' }}</li>
+	            </ul>
+				<div class="post mb20 text-justify fs16 mb40">
+				{{ content }}
+				</div>
 			</article>
 		</div>
 	</div>
