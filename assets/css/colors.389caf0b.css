@@ -1,7 +1,23 @@
 /*** Colors ***/
 
+.txt-4f82e9 {
+	color: #4f82e9;
+}
+
 .txt-e0e0e0 {
 	color: #e0e0e0 !important;
+}
+
+.txt-808080 {
+	color: #808080 !important;
+}
+
+.txt-eee {
+	color: #eee !important;
+}
+
+.txt-c0c0c0 {
+	color: #c0c0c0 !important;
 }
 
 .txt-aaa {
@@ -28,6 +44,10 @@
 	color: #777 !important;
 }
 
+.txt-115262 {
+	color: #115262;
+}
+
 .txt-ddd, a.txt-ddd, a.txt-ddd:visited {
 	color: #ddd !important;
 }
@@ -45,18 +65,27 @@ a.txt-ddd:hover {
 	background-color: #fff !important;
 }
 
+/* Almost Black */
 .bg-111 {
 	background-color: #111 !important;
 }
 
+/* Blue */
 .bg-4f82e9 {
 	background-color: #4f82e9 !important;
 }
 
+/* Gray */
 .bg-eee {
 	background-color: #eee !important;
 }
 
+/* Darker Gray */
 .bg-c0c0c0 {
 	background-color: #c0c0c0;
+}
+
+/* Navy Blueish */
+.bg-115262 {
+	background-color: #115262;
 }
