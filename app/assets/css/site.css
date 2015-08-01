@@ -323,7 +323,8 @@ li.pipe:before{
 
 /*** Home page hero ***/
 #home-page-hero {
-	background: url("/assets/img/hero-bg-keyboard.jpg") no-repeat;
+	background: url("/assets/img/hero-bg-city.jpg") no-repeat;
+	background-position: 50% 0;
 	padding: 0; 
 }
 
