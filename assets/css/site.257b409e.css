@@ -334,7 +334,7 @@ li.pipe:before{
 }
 
 #home-page-hero .hero-overlay {
-	background:rgba(0,0,0,0.2);
+	background:rgba(0,0,0,0.4);
 	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 	padding-bottom: 30px;
 }
