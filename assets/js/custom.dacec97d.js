@@ -54,7 +54,8 @@
         /* Parallax */
         $(window).stellar({
             horizontalScrolling: false,
-            responsive: true
+            responsive: true,
+            horizontalScrolling: false
         });
 
     });

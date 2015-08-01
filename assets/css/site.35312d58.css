@@ -323,7 +323,8 @@ li.pipe:before{
 
 /*** Home page hero ***/
 #home-page-hero {
-	background: url("/assets/img/hero-bg-keyboard.jpg") no-repeat;
+	background: url("/assets/img/hero-bg-city.jpg") no-repeat;
+	background-position: 50% 0;
 	padding: 0; 
 }
 
@@ -416,6 +417,10 @@ article {
 .how-it-works p {
 	max-width: 200px;
 	min-height: 145px;
+}
+
+.how-it-works h3.plug {
+	margin-top: -15px;
 }
 
 /* Custom, iPhone Retina */ 
