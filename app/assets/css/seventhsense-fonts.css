@@ -1,0 +1,226 @@
+@font-face {
+	font-family: 'seventhsense';
+	src:url('/assets/fonts/seventhsense/seventhsense.eot?-icazp2');
+	src:url('/assets/fonts/seventhsense/seventhsense.eot?#iefix-icazp2') format('embedded-opentype'),
+		url('/assets/fonts/seventhsense/seventhsense.ttf?-icazp2') format('truetype'),
+		url('/assets/fonts/seventhsense/seventhsense.woff?-icazp2') format('woff'),
+		url('/assets/fonts/seventhsense/seventhsense.svg?-icazp2#seventhsense') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'seventhsense';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hiw-screen .path1:before {
+	content: "\e600";
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-screen .path2:before {
+	content: "\e601";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-screen .path3:before {
+	content: "\e602";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-screen .path4:before {
+	content: "\e603";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-screen .path5:before {
+	content: "\e604";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-screen .path6:before {
+	content: "\e605";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-screen .path7:before {
+	content: "\e606";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-screen .path8:before {
+	content: "\e607";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-screen .path9:before {
+	content: "\e608";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-screen .path10:before {
+	content: "\e609";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-screen .path11:before {
+	content: "\e60a";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-screen .path12:before {
+	content: "\e60b";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-screen .path13:before {
+	content: "\e60c";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-screen .path14:before {
+	content: "\e60d";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-screen .path15:before {
+	content: "\e60e";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-plug .path1:before {
+	content: "\e60f";
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-plug .path2:before {
+	content: "\e610";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-plug .path3:before {
+	content: "\e611";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-plug .path4:before {
+	content: "\e612";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-gauge .path1:before {
+	content: "\e613";
+	color: rgb(20, 20, 20);
+}
+.icon-hiw-gauge .path2:before {
+	content: "\e614";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-gauge .path3:before {
+	content: "\e615";
+	margin-left: -1em;
+	color: rgb(20, 20, 20);
+}
+.icon-hiw-gauge .path4:before {
+	content: "\e616";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-email .path1:before {
+	content: "\e617";
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-email .path2:before {
+	content: "\e618";
+	margin-left: -1em;
+	color: rgb(246, 138, 32);
+}
+.icon-hiw-email .path3:before {
+	content: "\e619";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path4:before {
+	content: "\e61a";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path5:before {
+	content: "\e61b";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path6:before {
+	content: "\e61c";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path7:before {
+	content: "\e61d";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path8:before {
+	content: "\e61e";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path9:before {
+	content: "\e61f";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path10:before {
+	content: "\e620";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path11:before {
+	content: "\e621";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path12:before {
+	content: "\e622";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path13:before {
+	content: "\e623";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path14:before {
+	content: "\e624";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path15:before {
+	content: "\e625";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path16:before {
+	content: "\e626";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path17:before {
+	content: "\e627";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}
+.icon-hiw-email .path18:before {
+	content: "\e628";
+	margin-left: -1em;
+	color: rgb(50, 48, 49);
+}

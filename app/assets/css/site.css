@@ -418,6 +418,10 @@ article {
 	min-height: 145px;
 }
 
+.how-it-works h3.plug {
+	margin-top: -15px;
+}
+
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
     
