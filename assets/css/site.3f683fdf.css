@@ -11,6 +11,10 @@ body {
 	background-color: #fff; 
 }
 
+html, body{
+	height: 100%;
+}
+
 a {
 	-moz-transition: all 200ms ease-in;
 	-o-transition: all 200ms ease-in;
@@ -42,7 +46,7 @@ h2 {
 h3 {
 	font-size: 2.0em;
 	font-weight: 700;
-	line-height: 42px;
+	/*line-height: 42px;*/
 }
 
 .center-line {
@@ -200,8 +204,8 @@ li.pipe:before{
 }
 
 .btn-blue {
-	border: 1px solid #4f82e9;
-	background-color: #4f82e9;
+	border: 1px solid #1da1db;
+	background-color: rgba(29, 161, 219, 0.8);
 	color: #fff;
 	-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
@@ -209,7 +213,21 @@ li.pipe:before{
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
 }
 
+.btn-white {
+	border: 1px solid #fff;
+	background-color: rgba(255,255,255,0.8);
+	color: #4f82e9;
+	-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+}
+
 .btn-blue:hover {
+	color: #000; 
+}
+
+.btn-white:hover {
 	color: #000; 
 }
 
@@ -253,19 +271,16 @@ li.pipe:before{
 	text-decoration: none;
 }
 
+.buttons a {
+	margin-bottom: 10px;
+}
+
 /*** Top Hat ***/
 .top-hat .contact-info i {
 	line-height: 55px;
 }
 
 /*** Nav-Bar Overrides ***/
-
-/*
-.navbar .navbar-toggle {
-	position: absolute !important;
-	right: 0;
-	top: 0;
-}*/
 
 .navbar-inverse {
 	font-family: "Open Sans", sans-serif;
@@ -350,24 +365,24 @@ li.pipe:before{
  }
 
 .price-price {
-	  padding: 15px 0;
-	  font-size: 36px;
-	  line-height: 40px;
-	  margin: 0 -1px;
-	  color: #FFF;
-	  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-	  text-align: center; 
+	padding: 15px 0;
+	font-size: 36px;
+	line-height: 40px;
+	margin: 0 -1px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	text-align: center; 
 }
 
 .price-price span {
-	  display: block;
-	  font-size: 13px;
-	  line-height: 20px;
+	display: block;
+	font-size: 13px;
+	line-height: 20px;
 }
 
 .price-features {
-	  padding: 10px 15px;
-	  /*border-bottom: 1px solid #E5E5E5;*/
+	padding: 10px 15px;
+	/*border-bottom: 1px solid #E5E5E5;*/
 }
 
 .price-features ul li {
@@ -398,7 +413,11 @@ li.pipe:before{
 	border: 1px solid #eee;
 	border-bottom: 3px solid #f5f5f5;
 	padding: 5px; 
-}s
+}
+
+#blog h3 {
+	min-height: 75px;
+}
 
 .mas-blog-inner h3 {
 	font-weight: 400; 
@@ -423,6 +442,12 @@ article {
 	margin-top: -15px;
 }
 
+/*** Process ***/
+
+.process .img-wrapper {
+	min-height: 200px;
+}
+
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
     
@@ -433,27 +458,45 @@ article {
 
 }
 
-/* Covering phones in portrait */
+/* Covering phones in portrait - non standard bootstrap BP's */
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) {
-	/*** Buttons ***/
-	.buttons a:first-child {
-		margin-bottom: 10px;
-	}
-	
+	/*** Buttons **/
 	.btn-blue {
 		display: block; 
 	}
 }
 
-/* Covering phones in portrait */
+/* Covering phones and tablets in portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (orientation: portrait) {
 	
 	/*** Buttons ***/
 	#benefits .buttons a:first-child {
 		margin-bottom: 10px;
 	}
+
+	/*
+	.process, .process h3 {
+		min-height: 0 !important;
+	}
+	*/
 	
 } 
+
+
+/* Covering phones and tablets in landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	
+	 
+	.process {
+		min-height: 492px !important;
+	} 
+
+	.process h3 {
+		font-size: 22px !important;
+		min-height: 120px !important;
+	}
+
+}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -482,7 +525,23 @@ article {
 		margin-bottom: 0px;
 		margin-right: 25px;
 	}
+	 
+
+	.process {
+		min-height: 470px;
+	}
+
+	.process h3 {
+		min-height: 96px;
+		font-size: 32px;
+	}
+
+	.process .img-wrapper {
+		min-height: 200px;
+	}
+
 	*/
+
 
 }
 
@@ -497,6 +556,14 @@ article {
 	#customers .container, #itegrations .container {
 		margin-top: 40px;
 		padding-bottom: 40px !important;
+	}
+
+	.process {
+		min-height: 600px !important;
+	} 
+
+	.process h3 {
+		min-height: 180px !important;
 	}
 
 }
