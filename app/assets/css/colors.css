@@ -1,5 +1,10 @@
 /*** Colors ***/
 
+/* Orange */
+.txt-f8a134 {
+	color: #f8a134;
+}
+
 .txt-4f82e9 {
 	color: #4f82e9;
 }
@@ -92,4 +97,28 @@ a.txt-ddd:hover {
 
 .bg-000 {
 	background-color: #000;
+}
+
+.opacity-2 {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.opacity-4 {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.opacity-5 {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.opacity-6 {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.opacity-7 {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.opacity-8 {
+	background-color: rgba(0, 0, 0, 0.8);
 }
