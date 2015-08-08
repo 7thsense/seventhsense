@@ -2,9 +2,7 @@
 
 (function ($) {
 
-    var Sense = Sense || {};
-
-    Sense.Newsletter = Sense.Newsletter || {
+    var Sense = Sense || {
         /**
         * Post our form
         * Remove the newsletter form from the DOM
@@ -20,10 +18,28 @@
                 $('#newsletterForm').remove();
                 $('#newsletterThankYou').removeClass('dn');
             });
+        },
+
+        /**
+        * Highlight our navigation based on url
+        **/
+        setNavigation: function() {
+        var path = window.location.pathname;
+            path = path.replace(/\/$/, "");
+            path = decodeURIComponent(path);
+
+            $(".nav a").each(function () {
+                var href = $(this).attr('href');
+                if (path.substring(0, href.length) === href) {
+                    $(this).closest('li').addClass('active');
+                }
+            });   
         }
     };
 
     $(document).ready(function () {
+
+        Sense.setNavigation();
 
         /* Clear newsletter default text */
         $('#fieldEmail').focus(function(){
@@ -39,7 +55,7 @@
         $("#newsletterForm").submit(function (event) {
             /* Stop standard form submission */
             event.preventDefault();
-            Sense.Newsletter.submitForm();
+            Sense.submitForm();
         });
 
         /* Start sticky header */
