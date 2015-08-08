@@ -57,19 +57,6 @@
             responsive: true
         });
 
-        /* Owl Carousel */
-        $('.owl-carousel').owlCarousel({
-            loop:true,
-            responsiveClass:true,
-            responsive:{
-                0:{
-                    items:1,
-                    nav:false,
-                    dotsSpeed: 500
-                }
-            }
-        });
-
     });
 
     /* Closes nav menu on click */
