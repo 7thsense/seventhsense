@@ -64,8 +64,16 @@
 	padding-bottom: 5px !important;
 }
 
+.pa10 {
+	padding: 10px !important;
+}
+
 .pa20 {
 	padding: 20px !important;
+}
+
+.pt20 {
+	padding-top: 20px !important;
 }
 
 .pb20 {
