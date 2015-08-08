@@ -68,6 +68,14 @@
 	padding: 10px !important;
 }
 
+.pl10 {
+	padding-left: 10px !important;
+}
+
+.par10 {
+	padding-right: 10px !important;
+}
+
 .pa20 {
 	padding: 20px !important;
 }
@@ -110,6 +118,10 @@
 
 .mr5 {
 	margin-right: 5px !important;
+}
+
+.ml10 {
+	margin-left: 10px !important;
 }
 
 .mr10 {
