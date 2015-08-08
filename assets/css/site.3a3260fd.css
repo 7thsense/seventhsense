@@ -415,6 +415,10 @@ li.pipe:before{
 	padding: 5px; 
 }
 
+.mas-boxes-inner p {
+	min-height: 100px;
+}
+
 #blog h3 {
 	min-height: 75px;
 }
