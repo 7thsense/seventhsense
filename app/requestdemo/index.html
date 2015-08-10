@@ -2,15 +2,46 @@
 layout: default
 ---
 
-<div class="row">
-	<div class="col-xs-12">
-        <div class="center-heading text-center mt20 mb20">
-            <h2 class="txt-333">Request A Demo</h2>
-            <span class="center-line dib"></span>
-        </div>
-	</div>
+<div class="center-heading text-center opacity-2">
+    <h2 class="txt-333 mt10">request a demo</h2>
+    <span class="center-line dib"></span>
 </div>
 
-
-
-“First Name”, “Last Name”, “Email Address”, “Phone Number”, “Company”, “Marketing Automation System” (This should be a drop down and have Marketo, Hubspot, Eloqua & Act-On”
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 mb40 mt20">
+		    <form method="post" action="" role="form" id="requestDemo" class="ma">
+				<div class="form-group">
+			    	<label for="first_name">First Name:</label>
+			    	<input type="text" class="form-control" id="first_name" required="required">
+			  	</div> 
+			  	<div class="form-group">
+			    	<label for="last_name">Last Name:</label>
+			    	<input type="text" class="form-control" id="last_name" required="required">
+			  	</div>
+			  	<div class="form-group">
+			    	<label for="email_address">Email Address:</label>
+			    	<input type="email" class="form-control" id="email_address" required="required">
+			  	</div>
+			  	<div class="form-group">
+			    	<label for="phone">Phone Number:</label>
+			    	<input type="text" class="form-control" id="phone" required="required">
+			  	</div>
+			  	<div class="form-group">
+			    	<label for="company">Company:</label>
+			    	<input type="text" class="form-control" id="company" required="required">
+			  	</div>
+			  	<div class="form-group">
+				  	<label for="company">Marketing Automation System:</label>
+				  	<select class="form-control">
+					    <option value="Marketo">Marketo</option>
+					    <option value="Hubspot">Hubspot</option>
+					    <option value="Eloqua">Eloqua</option>
+					    <option value="ActOn">Act-On</option>
+					</select>
+				</div>
+			  	<button type="submit" class="btn btn-lg btn-blue pull-right">Submit</button>
+			</form>     
+		</div>
+	</div>
+</div>
