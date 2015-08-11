@@ -8,15 +8,17 @@
         * Remove the newsletter form from the DOM
         * Show thank you message
         **/
-        submitForm: function () {
-            var $form = $('#newsletterForm'),
-                emailAddress = $form.find('input[name="cm-gtuji-gtuji"]').val(),
-                url = $form.attr("action"),
-                postForm = $.post(url, {'cm-gtuji-gtuji': emailAddress});
-
-            postForm.done(function () {
-                $('#newsletterForm').remove();
-                $('#newsletterThankYou').removeClass('dn');
+        submitNewsletterSubscribe: function () {
+            $.getJSON('http://theseventhsense.createsend.com/t/d/s/gtuji/?callback=?',
+            {
+                "cm-gtuji-gtuji": $('#cm-gtuji-gtuji').val()
+            },
+            function (data) {
+                if (data.Status == 400) { 
+                } else {
+                    $('#newsletterForm').remove();
+                    $('#newsletterThankYou').removeClass('dn');
+                }
             });
         },
 
@@ -76,7 +78,7 @@
         $("#newsletterForm").submit(function (event) {
             /* Stop standard form submission */
             event.preventDefault();
-            Sense.submitForm();
+            Sense.submitNewsletterSubscribe();
         });
 
         /* Marketing demo request submission handler */
