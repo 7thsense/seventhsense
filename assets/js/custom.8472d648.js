@@ -24,7 +24,6 @@
             $.ajax({
                 type: "POST",
                 url: "http://theseventhsense.createsend.com/t/d/s/ikdklk/",
-                crossDomain: true,
                 data: $('#marketingdemorequest').serialize(),
                     success: function(msg){
                         $("#marketingdemorequest").addClass('dn'); 
