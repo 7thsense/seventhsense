@@ -23,7 +23,7 @@
         submitMarketingDemoRequest: function(){
             $.ajax({
                 type: "POST",
-                url: "http://theseventhsense.createsend.com/t/d/s/ikdklk/",
+                url: "http://theseventhsense.createsend.com/t/d/s/ikdklk/?callback=?",
                 data: $('#marketingdemorequest').serialize(),
                     success: function(msg){
                         $("#marketingdemorequest").addClass('dn'); 
