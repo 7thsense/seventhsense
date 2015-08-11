@@ -460,6 +460,11 @@ article {
 	width: 50%;
 }
 
+/*** Modal Override ***/
+.modal-content {
+	background-color: #eee !important;
+}
+
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
     
@@ -472,10 +477,10 @@ article {
 
 /* Covering phones in portrait - non standard bootstrap BP's */
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) {
-	/*** Buttons **/
+	/*** Buttons  
 	.btn-blue {
 		display: block; 
-	}
+	}**/
 }
 
 /* Covering phones and tablets in portrait */
@@ -549,7 +554,7 @@ article {
 	} 
 
 	.process h3 {
-		min-height: 180px !important;
+		min-height: 150px !important;
 	}
 
 }

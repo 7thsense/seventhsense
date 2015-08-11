@@ -20,13 +20,30 @@
             });
         },
 
+        submitMarketingDemoRequest: function(){
+            $.ajax({
+                type: "POST",
+                url: "http://theseventhsense.createsend.com/t/d/s/ikdklk/",
+                crossDomain: true,
+                data: $('#marketingdemorequest').serialize(),
+                    success: function(msg){
+                        $("#marketingdemorequest").addClass('dn'); 
+                        $("#markeingdemoconfirmation").removeClass('dn'); 
+                    },
+                    error: function(){
+                        $("#marketingdemorequest").addClass('dn'); 
+                        $("#markeingdemoerror").removeClass('dn'); 
+                    }
+            });
+        },
+
         /**
         * Highlight our navigation based on url
         **/
         setNavigation: function() {
-        var path = window.location.pathname;
-            path = path.replace(/\/$/, "");
-            path = decodeURIComponent(path);
+            var path = window.location.pathname;
+                path = path.replace(/\/$/, "");
+                path = decodeURIComponent(path);
 
             $(".nav a").each(function () {
                 var href = $(this).attr('href');
@@ -57,6 +74,13 @@
             event.preventDefault();
             Sense.submitForm();
         });
+
+        /* Marketing demo request submission handler */
+        $("#marketingdemorequest").submit(function (event) {
+            /* Stop standard form submission */
+            event.preventDefault();
+            Sense.submitMarketingDemoRequest();
+        }); 
 
         /* Start sticky header */
         $(window).load(function () {
