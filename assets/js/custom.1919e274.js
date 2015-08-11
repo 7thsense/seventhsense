@@ -21,18 +21,23 @@
         },
 
         submitMarketingDemoRequest: function(){
-            $.ajax({
-                type: "POST",
-                url: "http://theseventhsense.createsend.com/t/d/s/ikdklk/?callback=?",
-                data: $('#marketingdemorequest').serialize(),
-                    success: function(msg){
-                        $("#marketingdemorequest").addClass('dn'); 
-                        $("#markeingdemoconfirmation").removeClass('dn'); 
-                    },
-                    error: function(){
-                        $("#marketingdemorequest").addClass('dn'); 
-                        $("#markeingdemoerror").removeClass('dn'); 
-                    }
+            //Needs to be a JSONP call ... https://www.campaignmonitor.com/forums/post/27074/#p27074
+            $.getJSON('http://theseventhsense.createsend.com/t/d/s/ikdklk/?callback=?',
+            {
+                "cm-name": $('#cm-name').val(),
+                "cm-ikdklk-ikdklk": $('#cm-ikdklk-ikdklk').val(),
+                "cm-f-trljih": $('#cm-f-trljih').val(),
+                "cm-f-trljid": $('#cm-f-trljid').val(),
+                "cm-fo-trljik": $('#cm-fo-trljik').val()
+            },
+            function (data) {
+                if (data.Status == 400) {
+                    $("#marketingdemorequest").addClass('dn'); 
+                    $("#markeingdemoerror").removeClass('dn'); 
+                } else {
+                    $("#marketingdemorequest").addClass('dn'); 
+                    $("#markeingdemoconfirmation").removeClass('dn');
+                }
             });
         },
 
