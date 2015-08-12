@@ -105,6 +105,11 @@ h4 {
 	height: 100%;
 }
 
+.footer-logo img {
+	width: 250px;
+	height: 100%;
+}
+
 .footer-col h3:first-letter {
 	border-bottom: 1px solid #bbb; 
 }
@@ -420,7 +425,6 @@ article {
 
 .how-it-works p {
 	max-width: 200px;
-	min-height: 195px;
 }
 
 /*** Process ***/
@@ -476,10 +480,6 @@ article {
 
 /* Covering phones in portrait - non standard bootstrap BP's */
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) {
-	/*** Buttons  
-	.btn-blue {
-		display: block; 
-	}**/
 }
 
 /* Covering phones and tablets in portrait */
@@ -488,6 +488,10 @@ article {
 	/*** Buttons ***/
 	#benefits .buttons a:first-child {
 		margin-bottom: 10px;
+	}
+
+	.how-it-works p {
+		min-height: 0px !important;
 	}
 	
 } 
@@ -531,6 +535,14 @@ article {
 
 	#requestDemo {
 		width: 500px;
+	}
+
+	.how-it-works p {
+		min-height: 195px;
+	}
+
+	.how-it-works .img-wrapper {
+		min-height: 180px;
 	}
 
 }
