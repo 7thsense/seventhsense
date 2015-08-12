@@ -33,11 +33,11 @@
                 "cm-fo-trljik": $('#cm-fo-trljik').val()
             },
             function (data) {
+                $("#marketingdemorequest").addClass('dn');
+                $("#modal-header").addClass('dn');
                 if (data.Status == 400) {
-                    $("#marketingdemorequest").addClass('dn'); 
                     $("#markeingdemoerror").removeClass('dn'); 
                 } else {
-                    $("#marketingdemorequest").addClass('dn'); 
                     $("#markeingdemoconfirmation").removeClass('dn');
                 }
             });
