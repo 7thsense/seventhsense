@@ -4,13 +4,13 @@
 # 3. config.yml
 
 name: SeventhSense
-description: 
+description:
 author:
   name: SeventhSenseEngineering
   email: wsmadden@gmail.com
 
 #Change default blog url
-permalink: /blog/:year/:month/:day/:title  
+permalink: /blog/:year/:month/:day/:title
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
@@ -33,4 +33,4 @@ pygments: true
 
 # Custom Site Variables
 
-pageTitle: "The SeventhSense"
+pageTitle: "Seventh Sense"
