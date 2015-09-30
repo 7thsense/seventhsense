@@ -85,6 +85,11 @@ a.txt-ddd:hover {
 	background-color: #eee !important;
 }
 
+/* Dark Gray */
+.bg-333 {
+	background-color: #333 !important;
+}
+
 /* Darker Gray */
 .bg-c0c0c0 {
 	background-color: #c0c0c0;
