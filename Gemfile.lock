@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    asciidoctor (1.5.3)
     blankslate (2.1.2.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -30,6 +31,8 @@ GEM
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
+    jekyll-asciidoc (1.0.0)
+      asciidoctor (>= 0.1.4)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.2.1)
@@ -67,7 +70,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  asciidoctor
   jekyll (~> 2.5.3)
+  jekyll-asciidoc
   redcarpet
 
 BUNDLED WITH
