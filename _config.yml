@@ -34,3 +34,7 @@ pygments: true
 # Custom Site Variables
 
 pageTitle: "Seventh Sense"
+
+asciidoctor:
+  attributes:
+    - hardbreaks!
