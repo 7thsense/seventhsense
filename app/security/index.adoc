@@ -1,0 +1,86 @@
+---
+layout: legal
+title: "Terms of Service"
+date: November 3, 2015
+author: Erik LaBianca <erik@7thsense.io>
+---
+= Information Security Overview
+
+Telepath Data, Inc, dba Seventh Sense, maintains an active information
+security management system based on the framework outlined in the ISO 27001
+standard. As a result of the ongoing process of risk analysis and mediation,
+information security policies are mandated and approved by the company management.
+These policies are classified for Internal Use only and may be shared with customers,
+partners and other parties on a need to know basis.
+
+This page exists to answer commonly asked questions about the security policies, standards,
+guidelines and procedures that comprise the ISMS. Customers with additional questions should
+raise these through their Seventh Sense point of contact.
+
+== Security Policies
+
+[options="compact"]
+* Information Security Organization
++
+The Information Security Management System applies to all internal and external services, products and staff,
+specifically including any contracted services necessary for the day-to-day operation of the company its services.
+
+* Information Classification
+
+* Access Control
++
+All administrative access must be over encrypted channels, using named roles
+and multi-factory authentication wherever possible.
+
+* Communications and Operations Management
+** Network Security
+** System Security
+** Data Storage
+** Log Management
+** Backup, Recovery and Archive
+
+* Software Development and Maintenance
+
+* Physical Security
+
+* Third Party Security
++
+All third party providers are held to the same security policies as internal staff.
+
+* Human Resources Security
+
+* Compliance
+
+* Incident Management
+
+* Business Continuity
+
+== Security Standards
+
+[qanda]
+Network Security Standards::
+  * All production network endpoints must be protected by default-deny access rules.
+  * All authenticated network access and data transfers outside the production network
+    must be encrypted with TLS or equivalent.
+
+System Security Standards::
+  * All systems are configured with centralized access control.
+  * All systems are provisioned from a reproducible "gold master", allowing
+    rapid rebuild and return to functionality in case of hardware failure.
+
+Data Storage Standards::
+  * All credentials must be stored according to best practice using key-derivation functions.
+
+Log Management Standards::
+  * All systems and applications are configured for centralized log consolidation with
+    2 weeks of log retention at minimum.
+
+Backup, Recovery and Archive::
+  * Wherever possible, systems should be fully reproducible from source. These sources
+    should be stored in revision control and used for deployments regularly to ensure
+    they remain usable.
+  * All systems storing persistent data must be backed up to meet or exceed the current
+    RTO/RPO target.
+
+
+
