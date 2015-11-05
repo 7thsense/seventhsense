@@ -203,8 +203,16 @@
 	font-size: 35px !important;
 }
 
+.fs50 {
+	font-size: 50px !important;
+}
+
 .fs150 {
 	font-size: 150px !important;
+}
+
+.fs85 {
+	font-size: 85px !important;
 }
 
 .fs175 {

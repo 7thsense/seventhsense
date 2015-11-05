@@ -26,6 +26,12 @@ a:hover {
 	text-decoration: none;
 }
 
+.number {
+    font-family: 'Raleway', sans-serif;
+    line-height: 85px;
+    min-height: 100px;
+}
+
 /*** Headings ***/
 
 h1.article {
