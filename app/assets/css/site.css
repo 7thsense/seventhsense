@@ -352,6 +352,7 @@ li.pipe:before{
 #home-page-hero h1 {
 	font-size: 30px !important;
   	line-height: 40px;
+  	margin-top: 20px;
 }
 
 #home-page-hero .hero-overlay {
@@ -516,10 +517,8 @@ article {
 
 }
 
-
 /* Covering phones and tablets in landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
 
 	.process {
 		min-height: 492px !important;
