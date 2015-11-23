@@ -15,6 +15,11 @@ html, body{
 	height: 100%;
 }
 
+article {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 a {
 	-moz-transition: all 200ms ease-in;
 	-o-transition: all 200ms ease-in;
@@ -48,15 +53,6 @@ h2 {
     line-height: 42px;
     margin: 0 0 40px 0;
 }
-
-/*
-h1 {
-	font-size: 2.8em;
-	font-weight: 700;
-	line-height: 42px;
-	margin: 0 0 32px 0;
-}
-*/
 
 h1 {
     font-size: 2.2em;
