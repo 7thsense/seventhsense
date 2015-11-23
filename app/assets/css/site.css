@@ -31,6 +31,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.raleway {
+    font-family: 'Raleway', sans-serif !important;
+}
+
 .number {
     font-family: 'Raleway', sans-serif;
     line-height: 85px;
