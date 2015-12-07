@@ -15,6 +15,25 @@ layout: default
 			</div>
 		</div>
 
+		<div class="row">
+			<div class="col-xs-12">
+                <div class="pull-right mb30">
+	                <form action="" class="newsletter-form" id="newsletterFormBlog" method="post">
+	                    <p class="fs22 strong text-right">Subscribe to Blog</p>
+	                    <div class="input-group pull-right">
+	                        <input id="blog-cm-gtuji-gtuji" class="form-control" name="cm-gtuji-gtuji" type="email" required="required" placeholder="Enter email address" />
+	                        <span class="input-group-btn">
+	                            <button class="btn btn-lg txt-fff bg-c0c0c0" type="submit">SUBSCRIBE</button>
+	                        </span>
+	                    </div>
+	                </form>
+	                <div id="newsletterThankYouBlog" class="dn">
+                    	<p class="txt-337ab7 strong fs22 text-right">Thanks for subscribing!</p>
+                    </div>
+                </div>
+			</div>
+		</div>
+
 		{% for post in site.posts %}
 
 			{% if forloop.index == 1 %}

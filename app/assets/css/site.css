@@ -182,6 +182,10 @@ li.pipe:before{
   width: 262px;
 }
 
+#blog .newsletter-form .input-group {
+  width: 290px;
+}
+
 /*** Buttons ***/
 
 .btn {
@@ -601,6 +605,10 @@ article {
 
 	.process h3 {
 		min-height: 150px !important;
+	}
+
+	#blog .newsletter-form .input-group {
+	  width: 315px;
 	}
 
 }
