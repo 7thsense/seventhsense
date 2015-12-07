@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Overlooked Email Marketing Strategies"
+title: "5 Overlooked Email Marketing Tatics"
 date: Dec 8, 2015
 author: Niraj Ranjan Rout
 image: /assets/img/blog/2015-12-08-main.jpg
@@ -24,7 +24,8 @@ description: Email marketing yields an average 4,300% return on investment for b
 <p>You might as well not send an email, than landing up in the promotions or even worse, the spam folder.</p>
 <p>Here are a few suggestions to avoid this:</p>
 <ul>
-    <li>Avoid keywords like free, bonus, promo. Spam filters are triggered at the sight of these words.</li>
+    <li>Avoid keyw
+        ords like free, bonus, promo. Spam filters are triggered at the sight of these words.</li>
     <li>Keep the number of images in balance with the content as too many images increase the probability of landing in a promotions/spam folder.</li>
     <li>Avoid bulky emails.</li>
     <li>Use a legitimate sender address.</li>
