@@ -182,6 +182,10 @@ li.pipe:before{
   width: 262px;
 }
 
+#blog .newsletter-form .input-group {
+  width: 290px;
+}
+
 /*** Buttons ***/
 
 .btn {
@@ -353,7 +357,7 @@ li.pipe:before{
 
 /*** Home page hero ***/
 #home-page-hero {
-	background: url("/assets/img/hero-bg-city.6d18dc68.jpg") no-repeat;
+	background: url("/assets/img/hero-bg-city.f9ec68f1.jpg") no-repeat;
 	background-position: 50% 0;
 	padding: 0;
 }
@@ -601,6 +605,10 @@ article {
 
 	.process h3 {
 		min-height: 150px !important;
+	}
+
+	#blog .newsletter-form .input-group {
+	  width: 315px;
 	}
 
 }

@@ -22,6 +22,20 @@
             });
         },
 
+        submitNewsletterSubscribeBlog: function () {
+            $.getJSON('http://theseventhsense.createsend.com/t/d/s/gtuji/?callback=?',
+            {
+                "cm-gtuji-gtuji": $('#blog-cm-gtuji-gtuji').val()
+            },
+            function (data) {
+                if (data.Status == 400) { 
+                } else {
+                    $('#newsletterFormBlog').remove();
+                    $('#newsletterThankYouBlog').removeClass('dn');
+                }
+            });
+        },
+
         submitMarketingDemoRequest: function(){
             //Needs to be a JSONP call ... https://www.campaignmonitor.com/forums/post/27074/#p27074
             $.getJSON('http://theseventhsense.createsend.com/t/d/s/ikdklk/?callback=?',
@@ -79,6 +93,13 @@
             /* Stop standard form submission */
             event.preventDefault();
             Sense.submitNewsletterSubscribe();
+        });
+
+        /* Blog submission handler, same as newsletter but different DOM element, could clean up */
+        $("#newsletterFormBlog").submit(function (event) {
+            /* Stop standard form submission */
+            event.preventDefault();
+            Sense.submitNewsletterSubscribeBlog();
         });
 
         /* Marketing demo request submission handler */
