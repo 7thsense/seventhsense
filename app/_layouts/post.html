@@ -1,23 +1,29 @@
 ---
 layout: default
 ---
-
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12a">
-			<article>
-				<h1 class="article mt40 mb20 text-center raleway">{{ page.title }}</h1>
-				{% if page.image %}
-				<img src="{{page.image}}" class="img-responsive ma mt40 mb40" alt="{{ page.title }}">
-				{% endif %}
-				<div class="text-uppercase txt-777 mt20 mb20 text-center strong">
-					<span class="fs16">{{ page.date | date: '%B %d, %Y' }}</span><br>
-					by {{ page.author }}
-				</div>
-				<div class="post mb20 text-justify fs16 mb40 ml10 mr10">
-				{{ content }}
-				</div>
-			</article>
+<section id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 mt30">
+				{% include subscribetoblog.html %}
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<article>
+					<h1 class="article mt40 mb20 text-center raleway">{{ page.title }}</h1>
+					{% if page.image %}
+					<img src="{{page.image}}" class="img-responsive ma mt40 mb40" alt="{{ page.title }}">
+					{% endif %}
+					<div class="text-uppercase txt-777 mt20 mb20 text-center strong">
+						<span class="fs16">{{ page.date | date: '%B %d, %Y' }}</span><br>
+						by {{ page.author }}
+					</div>
+					<div class="post mb20 text-justify fs16 mb40 ml10 mr10">
+					{{ content }}
+					</div>
+				</article>
+			</div>
 		</div>
 	</div>
-</div>
+</section>
