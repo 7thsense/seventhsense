@@ -7,7 +7,7 @@ image: /assets/img/blog/2016-01-19-main.jpg
 description: I&apos;ve often heard that sales people are the easiest people to sell to.  I never thought I fell into this camp until a recent experience reminded me of how important the buyer&apos;s journey is.
 ---
 
-I&apos;ve often heard that sales people are the easiest people to sell to.  I never thought I fell into this camp until a recent experience reminded me of how important the buyer&apos;s journey is.  In this case, I was the eager buyer.  And by the end of my journey, I was reminded of a profane, yet still memorable axiom taught to me by one of my best mentors on how a seller should treat a buyer:   &quot;Show Up, Dont&apos;t be a D*ck and Add Value&quot;.
+I&apos;ve often heard that sales people are the easiest people to sell to.  I never thought I fell into this camp until a recent experience reminded me of how important the buyer&apos;s journey is.  In this case, I was the eager buyer.  And by the end of my journey, I was reminded of a profane, yet still memorable axiom taught to me by one of my best mentors on how a seller should treat a buyer:   &quot;Show Up, Don&apos;t be a D*ck and Add Value&quot;.
 
 <strong>&quot;Show Up&quot;</strong>
 
@@ -15,11 +15,11 @@ I had been following a company for a year when they were pre-product stage becau
 
 When I finally got the email from them about scheduling the demo, they sent me a link to find a time on their calendar.  While I love the new scheduling tools because it limits the back and forth through email trying to find a time, if you&apos;re using this type of technology and it takes you 35 hours to respond, automate it.  
 
-So the demo was scheduled and I was more excited than Steve Ballmer in this video.  I show up for the demo a few minutes early and wait.  WAIT for 20 minutes and no one actually &quot;SHOW&quot;S UP&quot; - strike TWO.
+So the demo was scheduled and I was more excited than Steve Ballmer in this <a href="https://www.youtube.com/watch?v=I14b-C67EXY" target="_blank">video</a>.  I show up for the demo a few minutes early and wait.  WAIT for 20 minutes and no one actually &quot;SHOW&quot;S UP&quot; - strike TWO.
 
 For any new or established company, new customers are the lifeblood of the organization.  Do not waste an at-bat when you have the chance.
 
-<strong>"Dont&apos;t Be a Di*k"</strong>
+<strong>"Don&apos;t Be a Di*k"</strong>
 
 The next day I get an email from the sales rep asking me if I still wanted to see a demo acting as if we didn&quot;t have a previously scheduled demo.  My response was &quot;yes, but I was also on the uber-conference yesterday and want to make sure someone will be there.&quot;  This was the response I got, "Sorry to hear that. I was on the conference line and didn&apos;t see anyone join. I&apos;m not sure what happened. I see you booked time for tomorrow. Looking forward to chatting then!&quot;
 
@@ -29,6 +29,6 @@ Talk about getting off on the wrong foot, fall on your sword if one of your proc
 
 The saving grace - the demo, as expected, exceeded expectations and I was super impressed with their technology.  Value-add all the way. The company had thrown a Hail Mary pass to a wide open receiver when I state, &quot;we can bypass a canned trial.  Can you just send me the details on how to sign up?&quot;  The reps response, &quot;Of course and really want to continue to hear your feedback…&quot;  Then, crickets for over two weeks.
 
-More often than not, you have just three strikes so you must always be pro-active, respectful and knowledgeable about how your product creates value to gain a new customer.  Not following up with me for two weeks was strike FOUR (and finishing the mixed metaphor - the Hail Mary was dropped). I eventually signed up with one of their competitors,  Which led me to this post to remind every hot start-up or seasoned organization that getting a new customer is a journey and to &quot;Show Up, Dont&apos;t be a Di*k and Add Value&quot;.  Cause we all have options out there in world.
+More often than not, you have just three strikes so you must always be pro-active, respectful and knowledgeable about how your product creates value to gain a new customer.  Not following up with me for two weeks was strike FOUR (and finishing the mixed metaphor - the Hail Mary was dropped). I eventually signed up with one of their competitors,  Which led me to this post to remind every hot start-up or seasoned organization that getting a new customer is a journey and to &quot;Show Up, Don&apos;t be a Di*k and Add Value&quot;.  Cause we all have options out there in world.
 
 P.S. - Hubspot Sidekick for Business is Amazing!  Thanks &lt;un-named&gt; for pushing me to them. 
