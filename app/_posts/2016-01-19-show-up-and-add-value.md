@@ -15,7 +15,7 @@ I had been following a company for a year when they were pre-product stage becau
 
 When I finally got the email from them about scheduling the demo, they sent me a link to find a time on their calendar.  While I love the new scheduling tools because it limits the back and forth through email trying to find a time, if you&apos;re using this type of technology and it takes you 35 hours to respond, automate it.  
 
-So the demo was scheduled and I was more excited than Steve Ballmer in this <a href="https://www.youtube.com/watch?v=I14b-C67EXY" target="_blank">video</a>.  I show up for the demo a few minutes early and wait.  WAIT for 20 minutes and no one actually &quot;SHOW&quot;S UP&quot; - strike TWO.
+So the demo was scheduled and I was more excited than Steve Ballmer in this <a href="https://www.youtube.com/watch?v=I14b-C67EXY" target="_blank">video</a>. I show up for the demo a few minutes early and wait.  WAIT for 20 minutes and no one actually &quot;SHOW&quot;S UP&quot; - strike TWO.
 
 For any new or established company, new customers are the lifeblood of the organization.  Do not waste an at-bat when you have the chance.
 
