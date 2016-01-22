@@ -15,7 +15,7 @@ permalink: /blog/:year/:month/:day/:title
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-# Ignore our asset source directory as it handles dependecies we will manage
+# Ignore our asset source directory as it handles dependencies we will manage
 exclude: ["assets/src"]
 
 #include: ['.htaccess']
