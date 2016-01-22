@@ -6,4 +6,4 @@ addSbtPlugin("org.rbayer" % "grunt-sbt" % "1.0")
 
 lazy val root = (project in file(".")).dependsOn(s3Plugin)
 
-lazy val s3Plugin = uri("https://github.com/7thsense/sbt-s3.git#aaad47c5e24f86e0f2249a52b7b18be9e55315e7")
+lazy val s3Plugin = uri("https://github.com/7thsense/sbt-s3.git#cc77ccdd21c8d2733e7a63fac764b8374ded8eca")
