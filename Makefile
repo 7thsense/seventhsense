@@ -3,7 +3,11 @@ default: build
 
 .PHONY:build
 build:
-	grunt build
+	./node_modules/grunt-cli/bin/grunt build
+
+.PHONY: serve
+serve:
+	./node_modules/grunt-cli/bin/grunt serve
 
 .PHONY:deploy
 deploy:
@@ -13,4 +17,6 @@ deploy:
 init:
 	npm install
 	bundle install
+
+
 
