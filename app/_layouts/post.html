@@ -11,7 +11,8 @@ layout: default
 		<div class="row">
 			<div class="col-xs-12">
 				<article>
-					<h1 class="article mt40 mb20 text-center raleway">{{ page.title }}</h1>
+					<a href="/blog/" class="fs11"><i class="fa fa-arrow-left fs11"></i> <strong>GO BACK</strong></a>
+					<h1 class="article mt20 mb20 text-center raleway">{{ page.title }}</h1>
 					{% if page.image %}
 					<img src="{{page.image}}" class="img-responsive ma mt40 mb40" alt="{{ page.title }}">
 					{% endif %}
@@ -22,8 +23,16 @@ layout: default
 					<div class="post mb20 text-justify fs16 mb40 ml10 mr10">
 					{{ content }}
 					</div>
+					<div class="pull-right mb20"><a href="" id="#top" class="fs11"><i class="fa fa-arrow-up fs11"></i> <strong>RETURN TO TOP</strong></a></div>
 				</article>
 			</div>
 		</div>
 	</div>
 </section>
+
+<script>
+$("#top").click(function(event){
+    event.preventDefault();
+    window.history.back();
+});
+</script>
