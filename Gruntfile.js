@@ -319,8 +319,7 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin',
-    'cdnify'
+    'htmlmin'
     ]);
 
   grunt.registerTask('publish', [
