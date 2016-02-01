@@ -2,7 +2,7 @@
 layout: post
 title: "Email Marketing Lessons for Startups"
 date: Jan 27, 2016
-author: Mike Donnelly
+author: Niraj Ranjan Rout
 image: /assets/img/blog/2016-01-27-main.jpg
 description: Own a startup or starting-up? Getting started with email marketing? How successful have you been?
 ---
@@ -126,3 +126,6 @@ description: Own a startup or starting-up? Getting started with email marketing?
 <p>The list is not exhaustive by any means, but most of these mistakes are easily avoidable. Spend a bit of time and effort on sorting out these issues. See how email-marketing-nicely-done will help your startup grow at a brisk pace.</p>
 
 <p>Image Source:<br>http://www.businessnewsdaily.com/images/i/000/006/797/original/email-marketing-mistakes.jpg</p>
+
+<p><strong>Niraj Ranjan Rout</strong></p>
+<p>Niraj is the founder of Hiver (formerly GrexIt), an app the lets you share Gmail labels with other Gmail users. Niraj works on programming, customer support and sales, and also contributes to design and UI. He&apos;s a fusion music aficionado, loves to play the guitar when he can.</p>

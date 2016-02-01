@@ -237,7 +237,21 @@ module.exports = function (grunt) {
         }]
       }
     },
-     
+    
+    //cdnify: {
+      //dev: {
+        //options: {
+          //base: 'http://s.7thsense.io/'
+        //},
+        //files: [{
+          //expand: true,
+          //cwd: 'dist',
+          //src: '**/*.{css,html}',
+          //dest: 'dist'
+        //}]
+      //}
+    //},
+
     buildcontrol: {
       dist: {
         options: {
@@ -305,7 +319,8 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'cdnify'
     ]);
 
   grunt.registerTask('publish', [
