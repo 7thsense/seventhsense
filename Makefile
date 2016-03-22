@@ -9,8 +9,7 @@ build:
 serve:
 	./node_modules/grunt-cli/bin/grunt serve
 
-.PHONY:deploy
-deploy:
+deploy: build
 	./sbt.sh s3Upload
 
 .PHONY:init
