@@ -17,5 +17,3 @@ init:
 	npm install
 	bundle install
 
-
-
